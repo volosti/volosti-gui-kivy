@@ -603,13 +603,14 @@ openssl = ["cryptography (>=37.0.4,<38.0.0)"]
 pycryptodome = ["pycryptodome (>=3.15.0,<4.0.0)"]
 
 [extras]
+all = ["cryptography", "pycryptodome"]
 openssl = ["cryptography"]
 pycryptodome = ["pycryptodome"]
 
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "c2d8275c08896ed60a847c9f9d8b9ee899b38f4bc0013aecfdcde5006e048102"
+content-hash = "839d03f0d0cca7e8e46ceb30fbe15251d34437482c4dccd04380e010870bfb20"
 
 [metadata.files]
 anyio = [

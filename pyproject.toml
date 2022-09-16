@@ -2,7 +2,7 @@
 [tool.poetry]
 name = "volosti-gui-kivy"
 version = "0.1.dev0"
-description = "Реализация графического интерфейса пользователя Волостей на фреймворке Kivy"
+description = "Реализация графического интерфейса пользователя Волостей на графическом фреймворке Kivy"
 license = "MIT"
 
 authors = [
@@ -37,6 +37,10 @@ volosti-common = { version = "^0.1.dev0", allow-prereleases = true }
 [tool.poetry.extras]
 openssl = ["cryptography"]
 pycryptodome = ["pycryptodome"]
+all = [
+    "cryptography",
+    "pycryptodome",
+]
 
 [tool.poetry.dev-dependencies]
 flake8 = "^5.0.4"
